@@ -1,0 +1,23 @@
+.page-not-found-container {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  height: 100%;
+  padding: 1rem;
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+  }
+  img {
+    max-width: 20rem;
+    max-height: 10rem;
+  }
+}

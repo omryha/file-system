@@ -1,0 +1,23 @@
+<!-- Search query input -->
+<div class="controls-container">
+  <input
+    pInputText
+    [formControl]="searchQuery"
+    class="filter-input"
+    type="text"
+    placeholder="Search files"
+    id="search-query"
+  />
+  <button pButton type="button" label="Reset" (click)="resetTree()"></button>
+</div>
+<!-- File tree -->
+<p-tree
+  *ngIf="!fileNotFound"
+  [value]="searchResults?.length > 0 ? searchResults : fullTree"
+  filterPlaceholder="Search files"
+  class="file-tree"
+>
+</p-tree>
+<div *ngIf="fileNotFound" class="file-not-found">
+  <p>File not found</p>
+</div>
