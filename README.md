@@ -2,11 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
-Run `npm run start` to start both server and client.
+#Running the project:
 
-Run `npm run client` to start running client only.
-
-Run `npm run server` to start running server only.
+1. Run `npm install`
+2. Run `npm run start` to start both server and client. 
+   Run `npm run client` to start running client only.
+   Run `npm run server` to start running server only.
+3. Server is served at `http://localhost:3000`.
+4. Client is served at `http://localhost:4200`.
 
 ## Development server
 
