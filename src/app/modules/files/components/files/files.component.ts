@@ -80,6 +80,9 @@ export class FilesComponent implements OnInit {
     this._subscriptions.unsubscribe();
   }
 
+  /*
+  * This method resets the tree to the initial state
+  */
   resetTree(): void {
     this.searchQuery.setValue('');
     this.searchResults = [];
